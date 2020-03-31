@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amartya/boost_fsm/src/stopwatch_sc.cpp
+boost/statechart/state_machine.hpp
+-
+boost/statechart/simple_state.hpp
+-
+boost/statechart/event.hpp
+-
+boost/statechart/transition.hpp
+-
+iostream
+-
+ctime
+-
+
